@@ -1,5 +1,5 @@
 # Zen Fonts Antique
-![Antique](Images/antique.png)
+![Antique](images/antique.png)
 
 ## The story of Zen Fonts
 

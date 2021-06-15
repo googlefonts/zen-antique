@@ -1,6 +1,7 @@
 # Zen Fonts Antique
 
 ![Antique](images/antique.png)
+Zen Antique features two kinds of Antique Japanese with Kanji. The impression of the weights (thickness) of strokes are different among characters—Hiragana and Latin alphabets are slightly lighter, while Katakana and Kanji are slightly heavier, which gives the unique rhythm and taste in this font. “Zen Antique S” has slightly rounded effect on the corners.
 
 ## The story of Zen Fonts
 

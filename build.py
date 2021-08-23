@@ -143,10 +143,10 @@ if __name__ == "__main__":
     generator = fontmake.instantiator.Instantiator.from_designspace(ds)
 
     pool = multiprocessing.pool.Pool(processes=multiprocessing.cpu_count())
-    processes = []
+    process_items = []
 
     for instance_descriptor in ds.instances: # GOTTA GO FAST
-        processes.append(
+        process_items.append(
             pool.apply_async(
                 make_static,
                 (
@@ -158,9 +158,9 @@ if __name__ == "__main__":
 
     pool.close()
     pool.join()
-    for process in processes:
+    for process in process_items:
         process.get()
-        del processes, pool
+    del process_items, pool
 
     print ("Cleaning build files")
     cleanup()
